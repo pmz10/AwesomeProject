@@ -5,6 +5,7 @@ import { SafeAreaView } from 'react-native';
 import { PaperProvider } from 'react-native-paper';
 //import { BoxObjectModelScreen } from './src/Presentation/Screens/BoxObjectModelScreen';
 import { DimensionScreen } from './src/Presentation/Screens/DimensionScreen';
+import PositionScreen from './src/Presentation/Screens/PositionScreen';
 
 export const App = () => {
   return (
@@ -14,7 +15,8 @@ export const App = () => {
           {/*<HelloScreen name = 'Gerardo García' />*/}
           {/*<CounterScreen />*/}
           {/* <BoxObjectModelScreen /> */}
-          <DimensionScreen />
+          {/* <DimensionScreen /> */}
+          <PositionScreen />
         </SafeAreaView>
       </PaperProvider>
     </SafeAreaProvider>
